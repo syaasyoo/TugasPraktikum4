@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <script src="../jquery.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".sembunyi1").click(function () {
+          $("#album1").hide("slow");
+        });
+        $(".tampil1").click(function () {
+          $("#album1").show("slow");
+        });
+        $(".sembunyi2").click(function () {
+          $("#album2").hide("slow");
+        });
+        $(".tampil2").click(function () {
+          $("#album2").show("slow");
+        });
+        $(".sembunyi3").click(function () {
+          $("#album3").hide("slow");
+        });
+        $(".tampil3").click(function () {
+          $("#album3").show("slow");
+        });
+        $(".sembunyi4").click(function () {
+          $("#album4").hide("slow");
+        });
+        $(".tampil4").click(function () {
+          $("#album4").show("slow");
+        });
+      });
+    </script>
+    <style>
+      body {
+        background-color: #DBD8E3;
+        font-family: sans-serif;
+      }
+      div {
+        text-align: center;
+        padding: 5px;
+        color: #5C5470;
+      }
+    </style>
+  </head>
+  <body>
+    <div><h2> "Shawn Mendes" Album Cover </h2></div>
+    <div>
+      <p><h3> Illuminate </h3></p>
+      <button class="sembunyi1">Sembunyikan</button><button class="tampil1">Tampilkan</button>
+      <p><img src="image/illuminate.png" alt="album" id="album1" /></p>
+    </div>
+    <div>
+      <p><h3> Handwritten </h3></p>
+      <button class="sembunyi2">Sembunyikan</button><button class="tampil2">Tampilkan</button>
+      <p><img src="image/handwritten.png" alt="album" id="album2" /></p>
+    </div>
+    <div>
+      <p><h3> Shawn Mendes </h3></p>
+      <button class="sembunyi3">Sembunyikan</button><button class="tampil3">Tampilkan</button>
+      <p><img src="image/shawn mendes.png" alt="album" id="album3" /></p>
+    </div>
+    <div>
+      <p><h3> Wonder </h3></p>
+      <button class="sembunyi4">Sembunyikan</button><button class="tampil4">Tampilkan</button>
+      <p><img src="image/wonder.png" alt="album" id="album4" /></p>
+    </div>
+  </body>
+</html>
